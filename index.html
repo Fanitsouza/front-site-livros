@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>LittleBook</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+		integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+		crossorigin="anonymous" /> <!--Reseta todas as propriedades e deixa todos os navegadores com o mesmo 
+									e a gente parte de um ponto em comum-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+	<div class = "menu-bg">
+		<div class = "menu">
+			<div class = "menu__logo">
+				<a href="index.html"><img src="img/logo.png" alt="logo"></a>
+			</div><!--menu__logo-->
+			<nav class="nav">
+				<ul class="nav__list">
+					<li><a href="#somos" class="nav__link">Quem Somos</a></li>
+					<li><a href="#cursos" class="nav__link">Recomendações</a></li>
+					<li><a href="#planos" class="nav__link">Planos</a></li>
+					<li><a href="#vantagens" class="nav__link">Contato</a></li>
+				</ul><!--.nav__link-->
+			</nav><!--nav-->
+		</div><!--.menu-->
+	</div><!--.menu-bg-->
+	<h1 class="intro">Bem vindo ao LittleBook, <br /> site para amantes de livros</h1>
+</header>
+
+<hr>
+<section class="somos" id="somos">
+	<h2 class="section__titulo">Quem somos</h2>
+	<div class="somos-c">
+		<div class="somos-c__texto">
+			<p>
+				O site LittleBook, é um lugar para amantes de livros de todas as idades e gêneros. Aqui, os leitores tem acesso à resenhas
+				detalhadas, recomendações voltadas para o seu gosto e você pode assinar um de nossos planos para receber em casa uma caixa de livros.
+			</p>
+			<br>
+			<p>
+				A LittleBook oferece planos diferenciados que cabem no seu bolso, com livros desde os clássicos até os últimos lançamentos,
+				com a garantia de oferecer algo especial para todos os gostos, venha conferir o plano que melhor lhe agrada!
+			</p>
+		</div><!--.somos-c__texto-->
+		<div class="somos-c__img">
+			<img src="img/somos.png" alt="Quem somos">
+		</div><!--.somos-c__img-->
+
+	</div><!--.somos-c-->
+</section><!--.somos-->
+<hr>
+<section class="recomendacoes" id="recomendacoes">
+	<h2 class="section__titulo">Recomendações de Livros</h2>
+	<div class="recomendacao-c">
+		<div class="recomendacao">
+			<img src="img/fantasia.png" alt="Livros de fantasia" class="recomendacao__img">
+			<h3 class="recomendacao__titulo">Fantasia</h3>
+			<p class="recomendacao__descricao">
+				Recomendações de livros de fantasias que transportam leitores para mundos mágicos, repletos de criaturas
+				incríveis e aventuras épicas.
+			</p>
+		</div>
+		<div class="recomendacao">
+			<img src="img/romance.png" alt="Romance" class="recomendacao__img">
+			<h3 class="recomendacao__titulo">Romance</h3>
+			<p class="recomendacao__descricao">
+				Recomendações de livros de romances que exploram emoções intensas, relacionamentos apaixonantes, desafios
+				amorosos e finais felizes.
+			</p>
+		</div>
+		<div class="recomendacao">
+			<img src="img/terror.png" alt="terror" class="recomendacao__img">
+			<h3 class="recomendacao__titulo">Terror</h3>
+			<p class="recomendacao__descricao">
+				Recomendações de livros de terror que provocam medo e suspense, com narrativas sombrias e assustadoras
+				prendendo o leitor em um mundo de pesadelos.
+			</p>
+		</div><!--recomendacao-->
+	</div><!--.recomendacao-c-->
+</section><!--.recomendacoes-->
+<br />
+<hr>
+<br />
+<section class="planos" id="planos">
+	<h2 class="section__titulo">Planos</h2>
+	<h2 class="section__texto">Assine nossos planos mensais para receber uma caixa com livros de<br />diferentes gêneros,
+		dê uma olhada no que oferecemos:
+	</h2>
+	<div class="planos-c">
+
+		<div class="plano">
+			<h2 class="plano__titulo">Básico</h2>
+			<span class="plano__preco"><sup>R$</sup>25</span>
+			<hr class="plano__divisor">
+			<ul class="plano-lista">
+				<li class="plano-lista__item">1 livro de fantasia</li>
+				<li class="plano-lista__item">1 livro de terror</li>
+				<li class="plano-lista__item">1 livro de romance</li>
+			</ul>
+			<a href="#" class="plano__btn-comprar">Assinar</a>
+		</div>
+		
+		<div class="plano">
+			<h2 class="plano__titulo">Premium</h2>
+			<span class="plano__preco"><sup>R$</sup>35</span>
+			<hr class="plano__divisor">
+			<ul class="plano-lista">
+				<li class="plano-lista__item">1 livro de fantasia</li>
+				<li class="plano-lista__item">1 livro de suspense</li>
+				<li class="plano-lista__item">1 livro de drama</li>
+				<li class="plano-lista__item"> Direito a 1 escolha</li>
+			</ul>
+			<a href="#" class="plano__btn-comprar">Assinar</a>
+		</div>
+		
+		<div class="plano">
+			<h2 class="plano__titulo">Ultra</h2>
+			<span class="plano__preco"><sup>R$</sup>45</span>
+			<hr class="plano__divisor">
+			<ul class="plano-lista">
+				<li class="plano-lista__item">1 livro de fantasia</li>
+				<li class="plano-lista__item">1 livro de romance</li>
+				<li class="plano-lista__item">1 livro de auto-ajuda</li>
+				<li class="plano-lista__item">Direito a  escolha do autor(a)</li>
+				<li class="plano-lista__item">Direito a 2 escolha</li>
+			</ul>
+			<a href="#" class="plano__btn-comprar">Assinar</a>
+		</div><!--plano-->
+
+	</div><!--planos-c-->
+
+</section><!--planos-->
+
+<hr>
+
+<section class="vantagens" id="vantagens">
+	<div class="vantagem">
+		<h2 class="vantagem__titulo">Livros Mensais</h2>
+		<p class="vantagem__descricao">Já pensou em receber mensalmente 3 livros na sua casa? A LittleBook te dá a solução
+			ideal para isso.</p>
+	</div><!--vantagem-->
+	
+	<div class="vantagem">
+		<h2 class="vantagem__titulo">Gêneros variados</h2>
+		<p class="vantagem__descricao">Com a LittleBook você poderá receber todos os meses uma caixa com livros de gêneros
+			variados para manter a sua leitura em dia.</p>
+	</div><!--vantagem-->
+	
+	<div class="vantagem">
+		<h2 class="vantagem__titulo">Escolha o livro</h2>
+		<p class="vantagem__descricao">Com a LittleBook você pode selecionar um ou dois livros que você gostaria de receber
+			na sua caixa do mês, dependendo do plano assinado.</p>
+	</div><!--vantagem-->
+	
+	<div class="vantagem">
+		<h2 class="vantagem__titulo">Todas as idades</h2>
+		<p class="vantagem__descricao">A LittleBook possui uma vasta coleção de livros, para todas as idades que irão te
+			encantar a cada história.</p>
+	</div><!--vantagem-->
+	
+	<div class="vantagem">
+		<h2 class="vantagem__titulo">Preço acessível</h2>
+		<p class="vantagem__descricao">Os preços dos livros subiram, mas que tal receber livros todos os meses gastando 
+			um valor fixo e acessível a qualquer bolso? </p>
+	</div><!--vantagem-->
+	
+	<div class="vantagem">
+		<h2 class="vantagem__titulo">Escolha a autoria</h2>
+		<p class="vantagem__descricao">Fã das obras de alguem específico? Na LittleBook você pode receber
+			um livro do autor, conforme a sua assinatura.</p>
+	</div><!--vantagem-->
+
+	
+</section><!--vantagens-->
+<hr>
+
+<section class="newsletter">
+	<div class="newsletter-c">
+		<div class="newsletter-info">
+			<p class="newsletter-info__descricao">Assine e fique por dentro <br> das novidades</p>
+		</div><!--newsletter-info-->
+
+		<form action="" class="newsletter-form">
+			<input type="text" placeholder="Seu email" class="newsletter-form__input">
+			<button type="submit" class="newsletter-form__submit">Assinar</button>
+		</form><!--.newsletter-form-->
+	</div><!--.newsletter-c-->
+
+</section><!--.newsletter-->
+
+<footer class="footer">
+	<p class="footer__copyright"> Projeto para aprender sobre flexbox <br>
+	Manaus - Amazonas</p>
+	<a href="index.html">
+		<img src="img/logo.png" alt="Frontbox" class="footer__logo">
+	</a>
+</footer>
+</body>
+</html>
